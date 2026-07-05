@@ -47,6 +47,6 @@ def update_patient_data(patient:Patient):
 patient_info={"name":"Taha",'email':'abc@gmail.com',"linkedin_url":"https://linkedin.com/112233","age":"30","weight":75.2,"married":True,"allergies":["pollen","Dust"],"contact_Details":{'phone':'234556',"ID":"12"}}
 
 patient1=Patient(**patient_info)
-
+ 
 insert_patient_data(patient1)
 # update_patient_data(patient1)
